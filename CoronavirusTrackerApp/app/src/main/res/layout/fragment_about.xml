@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutFragment"
+    android:background="@color/dark_blue">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:textColor="@color/white"
+            android:text="WHO GUIDELINES"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:text="How it spreads?"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:text="@string/how_it_spreads"
+            android:textStyle="normal"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:text="Symptoms"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:text="@string/symptoms"
+            android:textStyle="normal"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:text="Do's:"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:text="@string/do_s"
+            android:textStyle="normal"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:text="Dont's:"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:text="@string/dont_s"
+            android:textStyle="normal"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CoronavirusTrackerApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="loading">Loading</string>
+    <string name="network_not_available">Network not available</string>
+    <string name="how_it_spreads">Coronavirus disease spreads primarily through contact with an infected person when they cough or sneeze. It also spreads when a person touches a surface or object that has the virus on it, then touches their eyes, nose, or mouth.</string>
+    <string name="symptoms">People may be sick with the virus for 1 to 14 days before developing symptoms. The most common symptoms of coronavirus disease (COVID-19) are fever, tiredness, and dry cough. Most people (about 80%) recover from the disease without needing special treatment.</string>
+    <string name="do_s">1. Wash your hands regularly for 20 seconds, with soap and water or alcohol-based hand rub.
+        \n2. Cover your nose and mouth with a disposable tissue or flexed elbow when you cough or sneeze.
+        \n3. Avoid close contact (1 meter or 3 feet) with people who are unwell.
+        \n4. Stay home and self-isolate from others in the household if you feel unwell.
+</string>
+    <string name="dont_s">1. Touch your eyes, nose, or mouth if your hands are not clean</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+
+    <style name="loading">Loading</style>
+</resources>
