@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/dp_24">
+
+            <TextView
+                android:id="@+id/tv_outlet_detail_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/dark_blue"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/dp_8"
+                android:text="Numbers in Indian States"
+                android:textColor="@color/white"
+                android:textAllCaps="true"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/delhi"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/dp_8"
+                        android:text="@string/delhi" />
+
+                    <TextView
+                        android:id="@+id/delhi_number"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/dp_8" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/andaman"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/dp_8"
+                        android:text="@string/andaman" />
+
+                    <TextView
+                        android:id="@+id/andaman_number"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/dp_8" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/andhra"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/dp_8"
+                        android:text="@string/andhra" />
+
+                    <TextView
+                        android:id="@+id/andhra_number"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/dp_8" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/bihar"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/dp_8"
+                        android:text="@string/bihar" />
+
+                    <TextView
+                        android:id="@+id/bihar_number"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/dp_8" />
+                </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/chandigarh"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:gravity="center_horizontal"
+                    android:padding="@dimen/dp_8"
+                    android:text="@string/chandigarh" />
+
+                <TextView
+                    android:id="@+id/chandigarh_number"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:gravity="center_horizontal"
+                    android:padding="@dimen/dp_8" />
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/chattisgarh"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/dp_8"
+                        android:text="@string/chhattisgarh" />
+
+                    <TextView
+                        android:id="@+id/chattisgarh_number"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/dp_8" />
+                </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/goa"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:gravity="center_horizontal"
+                    android:padding="@dimen/dp_8"
+                    android:text="@string/goa" />
+
+                <TextView
+                    android:id="@+id/goa_number"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:gravity="center_horizontal"
+                    android:padding="@dimen/dp_8" />
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/gujarat"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/dp_8"
+                        android:text="@string/gujarat" />
+
+                    <TextView
+                        android:id="@+id/gujarat_number"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/dp_8" />
+                </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/haryana"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:gravity="center_horizontal"
+                    android:padding="@dimen/dp_8"
+                    android:text="@string/haryana" />
+
+                <TextView
+                    android:id="@+id/haryana_number"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:gravity="center_horizontal"
+                    android:padding="@dimen/dp_8" />
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/himachal"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/dp_8"
+                        android:text="@string/himachal" />
+
+                    <TextView
+                        android:id="@+id/himachal_number"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/dp_8" />
+                </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/jammu"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:gravity="center_horizontal"
+                    android:padding="@dimen/dp_8"
+                    android:text="@string/jammu" />
+
+                <TextView
+                    android:id="@+id/jammu_number"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:gravity="center_horizontal"
+                    android:padding="@dimen/dp_8" />
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/karnataka"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/dp_8"
+                        android:text="@string/karnataka" />
+
+                    <TextView
+                        android:id="@+id/karnataka_number"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/dp_8" />
+                </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/kerala"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:gravity="center_horizontal"
+                    android:padding="@dimen/dp_8"
+                    android:text="@string/kerala" />
+
+                <TextView
+                    android:id="@+id/kerala_number"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:gravity="center_horizontal"
+                    android:padding="@dimen/dp_8" />
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/ladakh"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/dp_8"
+                        android:text="@string/ladakh" />
+
+                    <TextView
+                        android:id="@+id/ladakh_number"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/dp_8" />
+                </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/mp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:gravity="center_horizontal"
+                    android:padding="@dimen/dp_8"
+                    android:text="@string/mp" />
+
+                <TextView
+                    android:id="@+id/mp_number"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:gravity="center_horizontal"
+                    android:padding="@dimen/dp_8" />
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/maharashtra"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/dp_8"
+                        android:text="@string/maharashtra" />
+                    <TextView
+                        android:id="@+id/maharashtra_number"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/dp_8" />
+                </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/manipur"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:gravity="center_horizontal"
+                    android:padding="@dimen/dp_8"
+                    android:text="@string/manipur" />
+
+                <TextView
+                    android:id="@+id/manipur_number"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:gravity="center_horizontal"
+                    android:padding="@dimen/dp_8" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/mizoram"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:gravity="center_horizontal"
+                    android:padding="@dimen/dp_8"
+                    android:text="@string/mizoram" />
+
+                <TextView
+                    android:id="@+id/mizoram_number"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:gravity="center_horizontal"
+                    android:padding="@dimen/dp_8" />
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/odisha"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/dp_8"
+                        android:text="@string/odisha" />
+
+                    <TextView
+                        android:id="@+id/odisha_number"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/dp_8" />
+                </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/puducherry"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:gravity="center_horizontal"
+                    android:padding="@dimen/dp_8"
+                    android:text="@string/puducherry" />
+
+                <TextView
+                    android:id="@+id/puducherry_number"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:gravity="center_horizontal"
+                    android:padding="@dimen/dp_8" />
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/punjab"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/dp_8"
+                        android:text="@string/punjab" />
+
+                    <TextView
+                        android:id="@+id/punjab_number"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/dp_8" />
+                </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/rajasthan"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:gravity="center_horizontal"
+                    android:padding="@dimen/dp_8"
+                    android:text="@string/rajasthan" />
+
+                <TextView
+                    android:id="@+id/rajasthan_number"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:gravity="center_horizontal"
+                    android:padding="@dimen/dp_8" />
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/tamilnadu"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/dp_8"
+                        android:text="@string/tamilnadu" />
+                    <TextView
+                        android:id="@+id/tamilnadu_number"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/dp_8" />
+                </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/telangana"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:gravity="center_horizontal"
+                    android:padding="@dimen/dp_8"
+                    android:text="@string/telangana" />
+
+                <TextView
+                    android:id="@+id/telangana_number"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:gravity="center_horizontal"
+                    android:padding="@dimen/dp_8" />
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/uttarakhand"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/dp_8"
+                        android:text="@string/uttarakhand" />
+                    <TextView
+                        android:id="@+id/uttarakhand_number"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/dp_8" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/up"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/dp_8"
+                        android:text="@string/up" />
+                    <TextView
+                        android:id="@+id/up_number"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_border"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/dp_8" />
+                </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/wb"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:gravity="center_horizontal"
+                    android:padding="@dimen/dp_8"
+                    android:text="@string/wb" />
+                <TextView
+                    android:id="@+id/wb_number"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_cell_border"
+                    android:gravity="center_horizontal"
+                    android:padding="@dimen/dp_8" />
+            </LinearLayout>
+
+            </LinearLayout>
+
+</ScrollView>

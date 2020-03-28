@@ -19,7 +19,8 @@
                 android:background="@color/colorPrimaryDark"
                 app:itemIconTint="@color/white"
                 app:itemTextColor="@color/white"
-                app:menu="@menu/bottom_navigation_menu"/>
+                app:menu="@menu/bottom_navigation_menu"
+                android:layout_marginTop="15dp"/>
         </FrameLayout>
 
     </LinearLayout>

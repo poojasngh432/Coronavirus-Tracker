@@ -15,6 +15,46 @@
     <string name="dont_s">1. Touch your eyes, nose, or mouth if your hands are not clean</string>
     <string name="open_drawer">Open Drawer</string>
     <string name="close_drawer">Close Drawer</string>
+    <string name="treatments">Self-care
+        \n1. There is no specific medicine to prevent or treat coronavirus disease (COVID-19). People may need supportive care to help them breathe.
+        \n2. If you have mild symptoms, stay at home until you’ve recovered.
+        \n3. You can relieve your symptoms if you:
+            \n - rest and sleep
+            \n - keep warm
+            \n - drink plenty of liquids
+            \n - use a room humidifier or take a hot shower to help ease a sore throat and cough
+    \4. Medical treatments
+    \n If you develop a fever, cough, and have difficulty breathing, promptly seek medical care. Call in advance and tell your health provider of any recent travel or recent contact with travelers.</string>
+
+    //Names of Indian States
+    <string name="delhi">Delhi</string>
+    <string name="andaman">Andaman and Nicobar Islands</string>
+    <string name="andhra">Andhra Pradesh</string>
+    <string name="bihar">Bihar</string>
+    <string name="chandigarh">Chandigarh</string>
+    <string name="chhattisgarh">Chhattisgarh</string>
+    <string name="goa">Goa</string>
+    <string name="gujarat">Gujarat</string>
+    <string name="haryana">Haryana</string>
+    <string name="himachal">Himachal Pradesh</string>
+    <string name="jammu">Jammu and Kashmir</string>
+    <string name="karnataka">Karnataka</string>
+    <string name="kerala">Kerala</string>
+    <string name="ladakh">Ladakh</string>
+    <string name="mp">Madhya Pradesh</string>
+    <string name="maharashtra">Maharashtra</string>
+    <string name="manipur">Manipur</string>
+    <string name="mizoram">Mizoram</string>
+    <string name="odisha">Odisha</string>
+    <string name="puducherry">Puducherry</string>
+    <string name="punjab">Punjab</string>
+    <string name="rajasthan">Rajasthan</string>
+    <string name="tamilnadu">Tamil Nadu</string>
+    <string name="telangana">Telengana</string>
+    <string name="uttarakhand">Uttarakhand</string>
+    <string name="up">Uttar Pradesh</string>
+    <string name="wb">West Bengal</string>
+    <string name="alert_dialog_ok_label">ok</string>
 
     <style name="loading">Loading</style>
 </resources>
