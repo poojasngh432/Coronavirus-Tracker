@@ -50,7 +50,7 @@
                 android:layout_weight="1"
                 android:id="@+id/deaths"
                 android:text="deaths"
-                android:layout_marginLeft="2dp"/>
+                android:layout_marginLeft="3dp"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -81,7 +81,7 @@
                 android:layout_weight="1"
                 android:id="@+id/deaths_today"
                 android:text="deaths today"
-                android:layout_marginLeft="2dp"/>
+                android:layout_marginLeft="3dp"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -97,7 +97,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/recovered"
                 tools:text="recovered"
-                android:layout_marginLeft="20dp"/>
+                android:layout_marginLeft="12dp"/>
         </LinearLayout>
     </LinearLayout>
 </androidx.cardview.widget.CardView>

@@ -2,23 +2,27 @@ package com.example.coronavirustrackerapp;
 
 import android.os.Bundle;
 
+import androidx.appcompat.widget.SearchView;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.coronavirustrackerapp.adapter.CountryAdapter;
 import com.example.coronavirustrackerapp.model.Countries;
 
+import java.util.ArrayList;
 import java.util.List;
 
-public class CountriesFragment extends Fragment {
+public class CountriesFragment extends Fragment implements SearchView.OnQueryTextListener {
     // TODO: Rename parameter arguments, choose names that match
 
     private static final String ARG_PARAM1 = "param1";
@@ -26,6 +30,9 @@ public class CountriesFragment extends Fragment {
     private List<Countries> myDataFromActivity;
     private RecyclerView recyclerView = null;
     private CountryAdapter countryAdapter;
+    private MenuItem itemSearch;
+    private SearchView searchView;
+    private String searchText = "";
 
     // TODO: Rename and change types of parameters
     private String mParam1;
@@ -49,6 +56,7 @@ public class CountriesFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         Log.d("Hi","12");
         super.onCreate(savedInstanceState);
+        setHasOptionsMenu(true);
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
@@ -71,8 +79,68 @@ public class CountriesFragment extends Fragment {
         recyclerView.setAdapter(countryAdapter);
         Log.d("Hi","11");
         countryAdapter.notifyDataSetChanged();
-        Toast.makeText(getActivity(), "Success", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(getActivity(), "Success", Toast.LENGTH_SHORT).show();
 
         return view;
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        if (!searchText.equals("")) {
+            onQueryTextChange(searchText);
+        }
+    }
+
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        inflater.inflate(R.menu.menu_search_bar, menu);
+        itemSearch = menu.findItem(R.id.action_search);
+
+            itemSearch.setVisible(true);
+            searchView = (SearchView) itemSearch.getActionView();
+            searchView.setOnQueryTextListener(this);
+            itemSearch.setOnActionExpandListener(new MenuItem.OnActionExpandListener() {
+                @Override
+                public boolean onMenuItemActionExpand(MenuItem menuItem) {
+                    return true;
+                }
+
+                @Override
+                public boolean onMenuItemActionCollapse(MenuItem menuItem) {
+                    searchView.setQuery("", false);
+                    return true;
+                }
+            });
+        super.onCreateOptionsMenu(menu, inflater);
+    }
+
+    @Override
+    public boolean onQueryTextSubmit(String s) {
+        return true;
+    }
+
+    @Override
+    public boolean onQueryTextChange(String s) {
+        searchText = s;
+        countryAdapter.setSearchText(s != null ? s : "");
+        List<Countries> filteredCountries = new ArrayList<>();
+        filteredCountries = getCountriesListAfterSearch(s);
+        countryAdapter.setCountriesDataList(filteredCountries);
+        countryAdapter.notifyDataSetChanged();
+        return true;
+    }
+
+    private List<Countries> getCountriesListAfterSearch(String s){
+        if (!s.equals("")) {
+            List<Countries> filteredCountriesList = new ArrayList<>();
+            for (Countries country : myDataFromActivity) {
+                if (country.getCountry().toLowerCase().contains(s.toLowerCase())) {
+                    filteredCountriesList.add(country);
+                }
+            }
+            return filteredCountriesList;
+        } else {
+            return myDataFromActivity;
+        }
     }
 }

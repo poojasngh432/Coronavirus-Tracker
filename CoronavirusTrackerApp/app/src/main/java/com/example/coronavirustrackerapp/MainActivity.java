@@ -21,6 +21,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
+import android.widget.SearchView;
 import android.widget.Toast;
 
 import com.example.coronavirustrackerapp.adapter.CountryAdapter;
@@ -39,7 +40,7 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity{
     BottomNavigationView bottomNavigation;
     private Global globalData;
     private List<Countries> countriesData;
@@ -74,12 +75,11 @@ public class MainActivity extends AppCompatActivity {
             call.enqueue(new Callback<Global>() {
                 @Override
                 public void onResponse(Call<Global> call, Response<Global> response) {
-                    dismissLoadingDialog();
                     Log.d("Hi", "success" + response.body().toString());
                     globalData = response.body();
                     if(globalData != null)
                         setGlobalData();
-                    Toast.makeText(getApplicationContext(), response.message(), Toast.LENGTH_LONG).show();
+                   // Toast.makeText(getApplicationContext(), response.message(), Toast.LENGTH_LONG).show();
                 }
 
                 @Override
@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
                     if(countriesData != null) {
                         setCountriesData();
                     }
-                    Toast.makeText(getApplicationContext(), response.message(), Toast.LENGTH_LONG).show();
+                  //  Toast.makeText(getApplicationContext(), response.message(), Toast.LENGTH_LONG).show();
                 }
 
                 @Override
@@ -106,6 +106,9 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), t.getMessage(), Toast.LENGTH_LONG).show();
                 }
             });
+            if(globalData != null && countriesData != null){
+                dismissLoadingDialog();
+            }
         }else {
             Toast.makeText(this, this.getString(R.string.network_not_available), Toast.LENGTH_LONG).show();
         }

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/dp_24">
+        <TextView
+            android:id="@+id/tv_outlet_detail_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dark_blue"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/dp_8"
+            android:text="Coronavirus Helpline Numbers"
+            android:textColor="@color/white"
+            android:textAllCaps="true"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/dp_8"
+                android:text="Central Helpline Number"
+                android:textAllCaps="true"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/dp_8"
+                android:text="+91-11-23978046"
+                android:autoLink="phone"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/dp_8"
+                android:text="NATIONAL EMERGENCY NUMBER" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/dp_8"
+                android:text="112"
+                android:autoLink="phone"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/dp_8"
+                android:text="POLICE"
+                android:textAllCaps="true"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/dp_8"
+                android:text="100"
+                android:autoLink="phone"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/dp_8"
+                android:text="Ambulance"
+                android:textAllCaps="true"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/dp_8"
+                android:text="102"
+                android:autoLink="phone"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/dp_8"
+                android:text="Disaster Management Services"
+                android:textAllCaps="true"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/dp_8"
+                android:text="108"
+                android:autoLink="phone"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/dp_8"
+                android:text="Senior Citizen Helpline"
+                android:textAllCaps="true"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/dp_8"
+                android:text="1091"
+                android:autoLink="phone"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
