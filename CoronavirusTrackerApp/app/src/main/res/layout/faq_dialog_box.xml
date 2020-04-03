@@ -15,7 +15,7 @@
             android:background="@color/dark_blue"
             android:gravity="center_horizontal"
             android:padding="@dimen/dp_8"
-            android:text="Numbers in Indian States"
+            android:text="FAQs by WHO"
             android:textColor="@color/white"
             android:textAllCaps="true"/>
 

@@ -30,7 +30,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:textStyle="bold"
-                android:text="Cases: "/>
+                android:text="Cases: "
+                android:textColor="@color/black"/>
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -43,7 +44,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="Deaths: "
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textColor="@color/red"/>
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -62,7 +64,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:textStyle="bold"
-                android:text="Cases today: "/>
+                android:text="Cases today: "
+                android:textColor="@color/black"/>
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -74,7 +77,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:textStyle="bold"
-                android:text="Deaths today: "/>
+                android:text="Deaths today: "
+                android:textColor="@color/red"/>
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -91,7 +95,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
-                android:text="Recovered: "/>
+                android:text="Recovered: "
+                android:textColor="@color/light_green"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
