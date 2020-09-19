@@ -6,273 +6,273 @@ import com.google.gson.annotations.SerializedName;
 public class States {
 
     @SerializedName("Andaman and Nicobar Islands")
-    private Integer andamanAndNicobarIslands;
+    private int andamanAndNicobarIslands;
     @SerializedName("Andhra Pradesh")
-    private Integer andhraPradesh;
+    private int andhraPradesh;
     @SerializedName("Bihar")
-    private Integer bihar;
+    private int bihar;
     @SerializedName("Chandigarh")
-    private Integer chandigarh;
+    private int chandigarh;
     @SerializedName("Chhattisgarh")
-    private Integer chhattisgarh;
+    private int chhattisgarh;
     @SerializedName("Delhi")
-    private Integer delhi;
+    private int delhi;
     @SerializedName("Goa")
-    private Integer goa;
+    private int goa;
     @SerializedName("Gujarat")
-    private Integer gujarat;
+    private int gujarat;
     @SerializedName("Haryana")
-    private Integer haryana;
+    private int haryana;
     @SerializedName("Himachal Pradesh")
-    private Integer himachalPradesh;
+    private int himachalPradesh;
     @SerializedName("Jammu and Kashmir")
-    private Integer jammuAndKashmir;
+    private int jammuAndKashmir;
     @SerializedName("Karnataka")
-    private Integer karnataka;
+    private int karnataka;
     @SerializedName("Kerala")
-    private Integer kerala;
+    private int kerala;
     @SerializedName("Ladakh")
-    private Integer ladakh;
+    private int ladakh;
     @SerializedName("Madhya Pradesh")
-    private Integer madhyaPradesh;
+    private int madhyaPradesh;
     @SerializedName("Maharashtra")
-    private Integer maharashtra;
+    private int maharashtra;
     @SerializedName("Manipur")
-    private Integer manipur;
+    private int manipur;
     @SerializedName("Mizoram")
-    private Integer mizoram;
+    private int mizoram;
     @SerializedName("Odisha")
-    private Integer odisha;
+    private int odisha;
     @SerializedName("Puducherry")
-    private Integer puducherry;
+    private int puducherry;
     @SerializedName("Punjab")
-    private Integer punjab;
+    private int punjab;
     @SerializedName("Rajasthan")
-    private Integer rajasthan;
+    private int rajasthan;
     @SerializedName("Tamil Nadu")
-    private Integer tamilNadu;
+    private int tamilNadu;
     @SerializedName("Telengana")
-    private Integer telengana;
+    private int telengana;
     @SerializedName("Uttarakhand")
-    private Integer uttarakhand;
+    private int uttarakhand;
     @SerializedName("Uttar Pradesh")
-    private Integer uttarPradesh;
+    private int uttarPradesh;
     @SerializedName("West Bengal")
-    private Integer westBengal;
+    private int westBengal;
 
-    public Integer getAndamanAndNicobarIslands() {
+    public int getAndamanAndNicobarIslands() {
         return andamanAndNicobarIslands;
     }
 
-    public void setAndamanAndNicobarIslands(Integer andamanAndNicobarIslands) {
+    public void setAndamanAndNicobarIslands(int andamanAndNicobarIslands) {
         this.andamanAndNicobarIslands = andamanAndNicobarIslands;
     }
 
-    public Integer getAndhraPradesh() {
+    public int getAndhraPradesh() {
         return andhraPradesh;
     }
 
-    public void setAndhraPradesh(Integer andhraPradesh) {
+    public void setAndhraPradesh(int andhraPradesh) {
         this.andhraPradesh = andhraPradesh;
     }
 
-    public Integer getBihar() {
+    public int getBihar() {
         return bihar;
     }
 
-    public void setBihar(Integer bihar) {
+    public void setBihar(int bihar) {
         this.bihar = bihar;
     }
 
-    public Integer getChandigarh() {
+    public int getChandigarh() {
         return chandigarh;
     }
 
-    public void setChandigarh(Integer chandigarh) {
+    public void setChandigarh(int chandigarh) {
         this.chandigarh = chandigarh;
     }
 
-    public Integer getChhattisgarh() {
+    public int getChhattisgarh() {
         return chhattisgarh;
     }
 
-    public void setChhattisgarh(Integer chhattisgarh) {
+    public void setChhattisgarh(int chhattisgarh) {
         this.chhattisgarh = chhattisgarh;
     }
 
-    public Integer getDelhi() {
+    public int getDelhi() {
         return delhi;
     }
 
-    public void setDelhi(Integer delhi) {
+    public void setDelhi(int delhi) {
         this.delhi = delhi;
     }
 
-    public Integer getGoa() {
+    public int getGoa() {
         return goa;
     }
 
-    public void setGoa(Integer goa) {
+    public void setGoa(int goa) {
         this.goa = goa;
     }
 
-    public Integer getGujarat() {
+    public int getGujarat() {
         return gujarat;
     }
 
-    public void setGujarat(Integer gujarat) {
+    public void setGujarat(int gujarat) {
         this.gujarat = gujarat;
     }
 
-    public Integer getHaryana() {
+    public int getHaryana() {
         return haryana;
     }
 
-    public void setHaryana(Integer haryana) {
+    public void setHaryana(int haryana) {
         this.haryana = haryana;
     }
 
-    public Integer getHimachalPradesh() {
+    public int getHimachalPradesh() {
         return himachalPradesh;
     }
 
-    public void setHimachalPradesh(Integer himachalPradesh) {
+    public void setHimachalPradesh(int himachalPradesh) {
         this.himachalPradesh = himachalPradesh;
     }
 
-    public Integer getJammuAndKashmir() {
+    public int getJammuAndKashmir() {
         return jammuAndKashmir;
     }
 
-    public void setJammuAndKashmir(Integer jammuAndKashmir) {
+    public void setJammuAndKashmir(int jammuAndKashmir) {
         this.jammuAndKashmir = jammuAndKashmir;
     }
 
-    public Integer getKarnataka() {
+    public int getKarnataka() {
         return karnataka;
     }
 
-    public void setKarnataka(Integer karnataka) {
+    public void setKarnataka(int karnataka) {
         this.karnataka = karnataka;
     }
 
-    public Integer getKerala() {
+    public int getKerala() {
         return kerala;
     }
 
-    public void setKerala(Integer kerala) {
+    public void setKerala(int kerala) {
         this.kerala = kerala;
     }
 
-    public Integer getLadakh() {
+    public int getLadakh() {
         return ladakh;
     }
 
-    public void setLadakh(Integer ladakh) {
+    public void setLadakh(int ladakh) {
         this.ladakh = ladakh;
     }
 
-    public Integer getMadhyaPradesh() {
+    public int getMadhyaPradesh() {
         return madhyaPradesh;
     }
 
-    public void setMadhyaPradesh(Integer madhyaPradesh) {
+    public void setMadhyaPradesh(int madhyaPradesh) {
         this.madhyaPradesh = madhyaPradesh;
     }
 
-    public Integer getMaharashtra() {
+    public int getMaharashtra() {
         return maharashtra;
     }
 
-    public void setMaharashtra(Integer maharashtra) {
+    public void setMaharashtra(int maharashtra) {
         this.maharashtra = maharashtra;
     }
 
-    public Integer getManipur() {
+    public int getManipur() {
         return manipur;
     }
 
-    public void setManipur(Integer manipur) {
+    public void setManipur(int manipur) {
         this.manipur = manipur;
     }
 
-    public Integer getMizoram() {
+    public int getMizoram() {
         return mizoram;
     }
 
-    public void setMizoram(Integer mizoram) {
+    public void setMizoram(int mizoram) {
         this.mizoram = mizoram;
     }
 
-    public Integer getOdisha() {
+    public int getOdisha() {
         return odisha;
     }
 
-    public void setOdisha(Integer odisha) {
+    public void setOdisha(int odisha) {
         this.odisha = odisha;
     }
 
-    public Integer getPuducherry() {
+    public int getPuducherry() {
         return puducherry;
     }
 
-    public void setPuducherry(Integer puducherry) {
+    public void setPuducherry(int puducherry) {
         this.puducherry = puducherry;
     }
 
-    public Integer getPunjab() {
+    public int getPunjab() {
         return punjab;
     }
 
-    public void setPunjab(Integer punjab) {
+    public void setPunjab(int punjab) {
         this.punjab = punjab;
     }
 
-    public Integer getRajasthan() {
+    public int getRajasthan() {
         return rajasthan;
     }
 
-    public void setRajasthan(Integer rajasthan) {
+    public void setRajasthan(int rajasthan) {
         this.rajasthan = rajasthan;
     }
 
-    public Integer getTamilNadu() {
+    public int getTamilNadu() {
         return tamilNadu;
     }
 
-    public void setTamilNadu(Integer tamilNadu) {
+    public void setTamilNadu(int tamilNadu) {
         this.tamilNadu = tamilNadu;
     }
 
-    public Integer getTelengana() {
+    public int getTelengana() {
         return telengana;
     }
 
-    public void setTelengana(Integer telengana) {
+    public void setTelengana(int telengana) {
         this.telengana = telengana;
     }
 
-    public Integer getUttarakhand() {
+    public int getUttarakhand() {
         return uttarakhand;
     }
 
-    public void setUttarakhand(Integer uttarakhand) {
+    public void setUttarakhand(int uttarakhand) {
         this.uttarakhand = uttarakhand;
     }
 
-    public Integer getUttarPradesh() {
+    public int getUttarPradesh() {
         return uttarPradesh;
     }
 
-    public void setUttarPradesh(Integer uttarPradesh) {
+    public void setUttarPradesh(int uttarPradesh) {
         this.uttarPradesh = uttarPradesh;
     }
 
-    public Integer getWestBengal() {
+    public int getWestBengal() {
         return westBengal;
     }
 
-    public void setWestBengal(Integer westBengal) {
+    public void setWestBengal(int westBengal) {
         this.westBengal = westBengal;
     }
 

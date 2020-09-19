@@ -120,33 +120,33 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
         tv26 = (TextView) view.findViewById(R.id.up_number);
         tv27 = (TextView) view.findViewById(R.id.wb_number);
 
-        tv1.setText(statesData.getDelhi().toString());
-        tv2.setText(statesData.getAndamanAndNicobarIslands().toString());
-        tv3.setText(statesData.getAndhraPradesh().toString());
-        tv4.setText(statesData.getBihar().toString());
-        tv5.setText(statesData.getChandigarh().toString());
-        tv6.setText(statesData.getChhattisgarh().toString());
-        tv7.setText(statesData.getGoa().toString());
-        tv8.setText(statesData.getGujarat().toString());
-        tv9.setText(statesData.getHaryana().toString());
-        tv10.setText(statesData.getHimachalPradesh().toString());
-        tv11.setText(statesData.getJammuAndKashmir().toString());
-        tv12.setText(statesData.getKarnataka().toString());
-        tv13.setText(statesData.getKerala().toString());
-        tv14.setText(statesData.getLadakh().toString());
-        tv15.setText(statesData.getMadhyaPradesh().toString());
-        tv16.setText(statesData.getMaharashtra().toString());
-        tv17.setText(statesData.getManipur().toString());
-        tv18.setText(statesData.getMizoram().toString());
-        tv19.setText(statesData.getOdisha().toString());
-        tv20.setText(statesData.getPuducherry().toString());
-        tv21.setText(statesData.getPunjab().toString());
-        tv22.setText(statesData.getRajasthan().toString());
-        tv23.setText(statesData.getTamilNadu().toString());
-        tv24.setText(statesData.getTelengana().toString());
-        tv25.setText(statesData.getUttarakhand().toString());
-        tv26.setText(statesData.getUttarPradesh().toString());
-        tv27.setText(statesData.getWestBengal().toString());
+        tv1.setText(String.valueOf(statesData.getDelhi()));
+        tv2.setText(String.valueOf(statesData.getAndamanAndNicobarIslands()));
+        tv3.setText(String.valueOf(statesData.getAndhraPradesh()));
+        tv4.setText(String.valueOf(statesData.getBihar()));
+        tv5.setText(String.valueOf(statesData.getChandigarh()));
+        tv6.setText(String.valueOf(statesData.getChhattisgarh()));
+        tv7.setText(String.valueOf(statesData.getGoa()));
+        tv8.setText(String.valueOf(statesData.getGujarat()));
+        tv9.setText(String.valueOf(statesData.getHaryana()));
+        tv10.setText(String.valueOf(statesData.getHimachalPradesh()));
+        tv11.setText(String.valueOf(statesData.getJammuAndKashmir()));
+        tv12.setText(String.valueOf(statesData.getKarnataka()));
+        tv13.setText(String.valueOf(statesData.getKerala()));
+        tv14.setText(String.valueOf(statesData.getLadakh()));
+        tv15.setText(String.valueOf(statesData.getMadhyaPradesh()));
+        tv16.setText(String.valueOf(statesData.getMaharashtra()));
+        tv17.setText(String.valueOf(statesData.getManipur()));
+        tv18.setText(String.valueOf(statesData.getMizoram()));
+        tv19.setText(String.valueOf(statesData.getOdisha()));
+        tv20.setText(String.valueOf(statesData.getPuducherry()));
+        tv21.setText(String.valueOf(statesData.getPunjab()));
+        tv22.setText(String.valueOf(statesData.getRajasthan()));
+        tv23.setText(String.valueOf(statesData.getTamilNadu()));
+        tv24.setText(String.valueOf(statesData.getTelengana()));
+        tv25.setText(String.valueOf(statesData.getUttarakhand()));
+        tv26.setText(String.valueOf(statesData.getUttarPradesh()));
+        tv27.setText(String.valueOf(statesData.getWestBengal()));
 
         alertBuilder.setView(view);
         alertBuilder.setPositiveButton(getActivity().getString(R.string.alert_dialog_ok_label), null);
@@ -198,6 +198,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
                 public void onResponse(Call<States> call, Response<States> response) {
                     dismissLoadingDialog();
                     statesData = response.body();
+
                     if(statesData != null)
                         showCasesInIndiaStatsDialog();
                 }

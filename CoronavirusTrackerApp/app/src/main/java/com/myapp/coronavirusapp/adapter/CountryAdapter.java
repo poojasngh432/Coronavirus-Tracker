@@ -71,11 +71,11 @@ public static class CountryViewHolder extends RecyclerView.ViewHolder {
         } else {
             holder.country.setText(countryText);
         }
-        holder.cases.setText(countriesList.get(position).getCases().toString());
-        holder.casesToday.setText(countriesList.get(position).getTodayCases().toString());
-        holder.deaths.setText(countriesList.get(position).getDeaths().toString());
-        holder.deathsToday.setText(countriesList.get(position).getTodayDeaths().toString());
-        holder.recovered.setText(countriesList.get(position).getRecovered().toString());
+        holder.cases.setText(String.valueOf(countriesList.get(position).getCases()));
+        holder.casesToday.setText(String.valueOf(countriesList.get(position).getTodayCases()));
+        holder.deaths.setText(String.valueOf(countriesList.get(position).getDeaths()));
+        holder.deathsToday.setText(String.valueOf(countriesList.get(position).getTodayDeaths()));
+        holder.recovered.setText(String.valueOf(countriesList.get(position).getRecovered()));
     }
 
     @Override

@@ -81,20 +81,20 @@ public class GlobeFragment extends Fragment {
     private void setTextValues() {
         if(myDataFromActivity != null){
             int position = 0;
-            TVglobalData1.setText(myDataFromActivity.getCases().toString());
-            TVglobalData2.setText(myDataFromActivity.getDeaths().toString());
-            TVglobalData3.setText(myDataFromActivity.getRecovered().toString());
+            TVglobalData1.setText(String.valueOf(myDataFromActivity.getCases()));
+            TVglobalData2.setText(String.valueOf(myDataFromActivity.getDeaths()));
+            TVglobalData3.setText(String.valueOf(myDataFromActivity.getRecovered()));
 
             for(Countries country: countriesList){
                 if(country.getCountry().equals("India"))
                     position = countriesList.indexOf(country);
             }
             country.setText(countriesList.get(position).getCountry());
-            cases.setText(countriesList.get(position).getCases().toString());
-            casesToday.setText(countriesList.get(position).getTodayCases().toString());
-            deaths.setText(countriesList.get(position).getDeaths().toString());
-            deathsToday.setText(countriesList.get(position).getTodayDeaths().toString());
-            recovered.setText(countriesList.get(position).getRecovered().toString());
+            cases.setText(String.valueOf(countriesList.get(position).getCases()));
+            casesToday.setText(String.valueOf(countriesList.get(position).getTodayCases()));
+            deaths.setText(String.valueOf(countriesList.get(position).getDeaths()));
+            deathsToday.setText(String.valueOf(countriesList.get(position).getTodayDeaths()));
+            recovered.setText(String.valueOf(countriesList.get(position).getRecovered()));
         }
     }
 }

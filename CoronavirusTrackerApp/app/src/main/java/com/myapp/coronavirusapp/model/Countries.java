@@ -7,21 +7,21 @@ public class Countries {
     @SerializedName("country")
     private String country;
     @SerializedName("cases")
-    private Integer cases;
+    private int cases;
     @SerializedName("todayCases")
-    private Integer todayCases;
+    private int todayCases;
     @SerializedName("deaths")
-    private Integer deaths;
+    private int deaths;
     @SerializedName("todayDeaths")
-    private Integer todayDeaths;
+    private int todayDeaths;
     @SerializedName("recovered")
-    private Integer recovered;
+    private int recovered;
     @SerializedName("active")
-    private Integer active;
+    private int active;
     @SerializedName("critical")
-    private Integer critical;
+    private int critical;
     @SerializedName("casesPerOneMillion")
-    private Integer casesPerOneMillion;
+    private int casesPerOneMillion;
 
     public String getCountry() {
         return country;
@@ -31,67 +31,67 @@ public class Countries {
         this.country = country;
     }
 
-    public Integer getCases() {
+    public int getCases() {
         return cases;
     }
 
-    public void setCases(Integer cases) {
+    public void setCases(int cases) {
         this.cases = cases;
     }
 
-    public Integer getTodayCases() {
+    public int getTodayCases() {
         return todayCases;
     }
 
-    public void setTodayCases(Integer todayCases) {
+    public void setTodayCases(int todayCases) {
         this.todayCases = todayCases;
     }
 
-    public Integer getDeaths() {
+    public int getDeaths() {
         return deaths;
     }
 
-    public void setDeaths(Integer deaths) {
+    public void setDeaths(int deaths) {
         this.deaths = deaths;
     }
 
-    public Integer getTodayDeaths() {
+    public int getTodayDeaths() {
         return todayDeaths;
     }
 
-    public void setTodayDeaths(Integer todayDeaths) {
+    public void setTodayDeaths(int todayDeaths) {
         this.todayDeaths = todayDeaths;
     }
 
-    public Integer getRecovered() {
+    public int getRecovered() {
         return recovered;
     }
 
-    public void setRecovered(Integer recovered) {
+    public void setRecovered(int recovered) {
         this.recovered = recovered;
     }
 
-    public Integer getActive() {
+    public int getActive() {
         return active;
     }
 
-    public void setActive(Integer active) {
+    public void setActive(int active) {
         this.active = active;
     }
 
-    public Integer getCritical() {
+    public int getCritical() {
         return critical;
     }
 
-    public void setCritical(Integer critical) {
+    public void setCritical(int critical) {
         this.critical = critical;
     }
 
-    public Integer getCasesPerOneMillion() {
+    public int getCasesPerOneMillion() {
         return casesPerOneMillion;
     }
 
-    public void setCasesPerOneMillion(Integer casesPerOneMillion) {
+    public void setCasesPerOneMillion(int casesPerOneMillion) {
         this.casesPerOneMillion = casesPerOneMillion;
     }
 

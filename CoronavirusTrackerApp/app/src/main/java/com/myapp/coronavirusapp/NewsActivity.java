@@ -60,6 +60,7 @@ public class NewsActivity extends AppCompatActivity {
 
     private void callApi() {
         showLoadingDialog();
+
         //Creating a retrofit object
 
         Retrofit retrofit = new Retrofit.Builder()

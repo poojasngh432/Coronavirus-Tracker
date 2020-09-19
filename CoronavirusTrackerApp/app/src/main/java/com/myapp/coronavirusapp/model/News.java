@@ -10,7 +10,7 @@ public class News {
     @SerializedName("status")
     private String status;
     @SerializedName("totalResults")
-    private Integer totalResults;
+    private int totalResults;
     @SerializedName("articles")
     private List<Article> articles = null;
 
@@ -22,11 +22,11 @@ public class News {
         this.status = status;
     }
 
-    public Integer getTotalResults() {
+    public int getTotalResults() {
         return totalResults;
     }
 
-    public void setTotalResults(Integer totalResults) {
+    public void setTotalResults(int totalResults) {
         this.totalResults = totalResults;
     }
 

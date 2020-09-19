@@ -5,33 +5,33 @@ import com.google.gson.annotations.SerializedName;
 public class Global {
 
     @SerializedName("cases")
-    private Integer cases;
+    private int cases;
     @SerializedName("deaths")
-    private Integer deaths;
+    private int deaths;
     @SerializedName("recovered")
-    private Integer recovered;
+    private int recovered;
 
-    public Integer getCases() {
+    public int getCases() {
         return cases;
     }
 
-    public void setCases(Integer cases) {
+    public void setCases(int cases) {
         this.cases = cases;
     }
 
-    public Integer getDeaths() {
+    public int getDeaths() {
         return deaths;
     }
 
-    public void setDeaths(Integer deaths) {
+    public void setDeaths(int deaths) {
         this.deaths = deaths;
     }
 
-    public Integer getRecovered() {
+    public int getRecovered() {
         return recovered;
     }
 
-    public void setRecovered(Integer recovered) {
+    public void setRecovered(int recovered) {
         this.recovered = recovered;
     }
 
